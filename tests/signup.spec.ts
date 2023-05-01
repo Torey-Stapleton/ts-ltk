@@ -34,3 +34,14 @@ test.describe('Sign up', async () => {
     });
   });
 })
+
+
+
+// manual test scenarios
+// given signed up, when you click Shop, verify you are presented the styles categories
+
+// depends what your criteria is for this route
+// verify "Shop" link navigates to /categories
+// verify each link has an href that points to /categories/x or points to a successful route, one of them currently returns 404 :(
+// maybe an explicit list of core categories - it MUST show "Home", "Beauty", "Fitness" etc
+// maybe each category MUST have a thumbnail thats at least 50x50
